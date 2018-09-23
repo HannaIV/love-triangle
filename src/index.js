@@ -8,9 +8,9 @@ module.exports = function getLoveTrianglesCount(preferences = []) {
 	 let current = preferences[n];
 	 let second = preferences[current];
 	 let third = preferences[second];
-	 	 if(hird == n && first != second && second != third && third != first){
+	 	 if(third == n && first != second && second != third && third != first){
 			triangles++;
 		}
 		 return triangles/3;
 }
-};
+}
